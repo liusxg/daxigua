@@ -1818,6 +1818,7 @@ window.__require = function e(t, n, o) {
                     name: "restart-game"
                 }), a.gotoEndLayer1()
             },
+            
             // 游戏结束的全屏广告 
             /*initEndLayer: function() {
                 this.gameOverT1.node.active = !1, this.gameOverT2.node.active = !1, this.gameOverToEnd.active = !1, this.showAdsLayer(), a.gotoEndLayer1()
