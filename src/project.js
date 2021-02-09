@@ -987,7 +987,7 @@ window.__require = function e(t, n, o) {
                         scale: .9
                     }).union().repeatForever().start()
                 }, t.prototype.update = function(e) {}, t.prototype.adsButtonFunc2 = function() {
-                    window.location.href = "https://www.baidu.com/"
+                    window.location.href = "https://activity.huacuiu.cn/activity/index?id=24326&slotId=379394&login=normal&appKey=26MdHZiiniqoLwyn8EkTvNxVQhPh&deviceId=02352d74-2766-453c-aebf-644eb6d0828d&dsm=1.379394.0.0&dsm2=1.379394.2.24326&tenter=SOW&subActivityWay=1&tck_rid_6c8=0a56f061kkqmzn9b-14149332&tck_loc_c5d=tactivity-24326&dcm=401.379394.0.0&&netType=2&tenter=SOW&visType=0&specialType=0&sourcePage=24326&formUserId=null&isTestActivityType=0&dpAlgoStatus=1&userType=1&ep=RxGRClIVsM8CyXvgxlK4hexII4XI7CNRaZx9_yCWEvchd2XxanLkZwEuWLKgJcQqppq13QX8wq5MqBXYXkWcbw==&openStyleType=1661"
                 }, t.prototype.bannerButtonFunc = function() {
                     window.location.href = "https://www.baidu.com/"
                 }, t.prototype.ShowFailedUi = function(e, t) {
