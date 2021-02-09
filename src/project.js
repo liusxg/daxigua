@@ -987,9 +987,9 @@ window.__require = function e(t, n, o) {
                         scale: .9
                     }).union().repeatForever().start()
                 }, t.prototype.update = function(e) {}, t.prototype.adsButtonFunc2 = function() {
-                    window.location.href = "https://activity.huacuiu.cn/activity/index?id=24326&slotId=379394&login=normal&appKey=26MdHZiiniqoLwyn8EkTvNxVQhPh&deviceId=02352d74-2766-453c-aebf-644eb6d0828d&dsm=1.379394.0.0&dsm2=1.379394.2.24326&tenter=SOW&subActivityWay=1&tck_rid_6c8=0a56f061kkqmzn9b-14149332&tck_loc_c5d=tactivity-24326&dcm=401.379394.0.0&&netType=2&tenter=SOW&visType=0&specialType=0&sourcePage=24326&formUserId=null&isTestActivityType=0&dpAlgoStatus=1&userType=1&ep=RxGRClIVsM8CyXvgxlK4hexII4XI7CNRaZx9_yCWEvchd2XxanLkZwEuWLKgJcQqppq13QX8wq5MqBXYXkWcbw==&openStyleType=1661"
+                    window.location.href = "https://engine.tuiaaag.com/index/activity?appKey=26MdHZiiniqoLwyn8EkTvNxVQhPh&adslotId=379394&tu_a1=__IMEI__&tu_a2=__IMEI2__&tu_a3=__MUID__&tu_b1=__IDFA__&tu_b2=__IDFA2__&tu_c1=__OAID__"
                 }, t.prototype.bannerButtonFunc = function() {
-                    window.location.href = "https://www.baidu.com/"
+                    window.location.href = "https://engine.tuiaaag.com/index/activity?appKey=26MdHZiiniqoLwyn8EkTvNxVQhPh&adslotId=379394&tu_a1=__IMEI__&tu_a2=__IMEI2__&tu_a3=__MUID__&tu_b1=__IDFA__&tu_b2=__IDFA2__&tu_c1=__OAID__"
                 }, t.prototype.ShowFailedUi = function(e, t) {
                     e = e * (window.difficulty[0] + 1);
                     t = t * (window.difficulty[0] + 1);
@@ -1009,7 +1009,7 @@ window.__require = function e(t, n, o) {
                     this.canClick && 0 == cc.find("Canvas/uiEffectPanel").childrenCount && a.default.Instance.RestartGame()
                 }, t.prototype.OnClickMoreGame = function() {
                     this.canClick && (this.moreGameBtn.off(cc.Node.EventType.TOUCH_START, this.OnClickMoreGame, this), this.canClick = !1, this.moreGameBtn.runAction(cc.sequence(cc.scaleTo(.1, 1.1), cc.scaleTo(.1, 1))), this.scheduleOnce(function() {
-                        window.location.href = "https://www.baidu.com/"
+                        window.location.href = "https://engine.tuiaaag.com/index/activity?appKey=26MdHZiiniqoLwyn8EkTvNxVQhPh&adslotId=379394&tu_a1=__IMEI__&tu_a2=__IMEI2__&tu_a3=__MUID__&tu_b1=__IDFA__&tu_b2=__IDFA2__&tu_c1=__OAID__"
                     }, .15))
                 }, t.prototype.GetContentByScore = function(e) {
                     var t = Math.ceil(e / 1500 * 94);
@@ -1918,7 +1918,7 @@ window.__require = function e(t, n, o) {
                 }, t.prototype.update = function(e) {
                     this.UpdateScoreLabel(e), this.lerpCtrl && this.lerpNumFunc(this.passlevelYQ), this.levelPanel.children[1].getComponent(cc.Label).string = s.default.Instance.GetLevel().toString()
                 }, t.prototype.adsButtonFunc = function() {
-                    window.location.href = "https://www.baidu.com/"
+                    window.location.href = "https://engine.tuiaaag.com/index/activity?appKey=26MdHZiiniqoLwyn8EkTvNxVQhPh&adslotId=379394&tu_a1=__IMEI__&tu_a2=__IMEI2__&tu_a3=__MUID__&tu_b1=__IDFA__&tu_b2=__IDFA2__&tu_c1=__OAID__"
                 }, t.prototype.TestPasslevel = function() {
                     var e = this;
                     this.lerpCtrl = !0, this.nowYQ >= this.passlevelYQ && (this.levelPanel.children[2].runAction(cc.sequence(cc.delayTime(1.3), cc.callFunc(function() {
