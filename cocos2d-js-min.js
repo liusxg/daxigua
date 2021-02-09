@@ -8169,7 +8169,10 @@
                     get: function() {
                         if (this._native) {
                             var t = this._native;
-                            if (47 === t.charCodeAt(0)) return t.slice(1);
+                            if (47 === t.charCodeAt(0)) {
+                                console.log("test" + t.slice(1))
+                                return t.slice(1)
+                            };
                             if (cc.AssetLibrary) {
                                 var e = cc.AssetLibrary.getLibUrlNoExt(this._uuid, !0);
                                 return 46 === t.charCodeAt(0) ? e + t : e + "/" + t
