@@ -987,8 +987,16 @@ window.__require = function e(t, n, o) {
                         scale: .9
                     }).union().repeatForever().start()
                 }, t.prototype.update = function(e) {}, t.prototype.adsButtonFunc2 = function() {
+                    gtag('event', 'click', {
+                        'event_category' : 'ads',
+                        'event_label' : 'url:adslotId:379394'
+                      });
                     window.location.href = "https://engine.tuiaaag.com/index/activity?appKey=26MdHZiiniqoLwyn8EkTvNxVQhPh&adslotId=379394&tu_a1=__IMEI__&tu_a2=__IMEI2__&tu_a3=__MUID__&tu_b1=__IDFA__&tu_b2=__IDFA2__&tu_c1=__OAID__"
                 }, t.prototype.bannerButtonFunc = function() {
+                    gtag('event', 'click', {
+                        'event_category' : 'ads',
+                        'event_label' : 'url:adslotId:379394'
+                      });
                     window.location.href = "https://engine.tuiaaag.com/index/activity?appKey=26MdHZiiniqoLwyn8EkTvNxVQhPh&adslotId=379394&tu_a1=__IMEI__&tu_a2=__IMEI2__&tu_a3=__MUID__&tu_b1=__IDFA__&tu_b2=__IDFA2__&tu_c1=__OAID__"
                 }, t.prototype.ShowFailedUi = function(e, t) {
                     e = e * (window.difficulty[0] + 1);
@@ -1009,6 +1017,10 @@ window.__require = function e(t, n, o) {
                     this.canClick && 0 == cc.find("Canvas/uiEffectPanel").childrenCount && a.default.Instance.RestartGame()
                 }, t.prototype.OnClickMoreGame = function() {
                     this.canClick && (this.moreGameBtn.off(cc.Node.EventType.TOUCH_START, this.OnClickMoreGame, this), this.canClick = !1, this.moreGameBtn.runAction(cc.sequence(cc.scaleTo(.1, 1.1), cc.scaleTo(.1, 1))), this.scheduleOnce(function() {
+                        gtag('event', 'click', {
+                            'event_category' : 'ads',
+                            'event_label' : 'url:adslotId:379394'
+                          });
                         window.location.href = "https://engine.tuiaaag.com/index/activity?appKey=26MdHZiiniqoLwyn8EkTvNxVQhPh&adslotId=379394&tu_a1=__IMEI__&tu_a2=__IMEI2__&tu_a3=__MUID__&tu_b1=__IDFA__&tu_b2=__IDFA2__&tu_c1=__OAID__"
                     }, .15))
                 }, t.prototype.GetContentByScore = function(e) {
@@ -1918,6 +1930,10 @@ window.__require = function e(t, n, o) {
                 }, t.prototype.update = function(e) {
                     this.UpdateScoreLabel(e), this.lerpCtrl && this.lerpNumFunc(this.passlevelYQ), this.levelPanel.children[1].getComponent(cc.Label).string = s.default.Instance.GetLevel().toString()
                 }, t.prototype.adsButtonFunc = function() {
+                    gtag('event', 'click', {
+                        'event_category' : 'ads',
+                        'event_label' : 'url:adslotId:379394'
+                      });
                     window.location.href = "https://engine.tuiaaag.com/index/activity?appKey=26MdHZiiniqoLwyn8EkTvNxVQhPh&adslotId=379394&tu_a1=__IMEI__&tu_a2=__IMEI2__&tu_a3=__MUID__&tu_b1=__IDFA__&tu_b2=__IDFA2__&tu_c1=__OAID__"
                 }, t.prototype.TestPasslevel = function() {
                     var e = this;
